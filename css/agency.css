@@ -28,13 +28,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #5FD5C2;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #54BBAB;
 }
 h1,
 h2,
@@ -57,8 +57,8 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #5FD5C2;
+  border-color: #5FD5C2;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -69,8 +69,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #54BBAB;
+  border-color: #54BBAB;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -196,7 +196,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #54BBAB;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -225,6 +225,14 @@ fieldset[disabled] .btn-xl.active {
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
+}
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 5px; /* firefox bug fix */
+  width: auto;
 }
 header {
   background-image: url('../img/header-bg.jpg');
@@ -422,7 +430,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #5FD5C2;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -646,7 +654,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #54BBAB;
 }
 .btn:focus,
 .btn:active,
