@@ -3,6 +3,9 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -59,7 +62,7 @@ h6 {
   color: white;
   background-color: #5FD5C2;
   border-color: #5FD5C2;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans KR', "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -251,7 +254,7 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans KR', "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -296,7 +299,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans KR', "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -359,11 +362,12 @@ section h3.section-subheading {
   padding: 25px;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
+  font-family: 'Noto Sans KR', sans-serif;
   text-transform: none;
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans KR', "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -462,6 +466,7 @@ section h3.section-subheading {
   margin-bottom: 0;
 }
 .timeline .timeline-heading h4 {
+  font-family: 'Noto Sans KR', sans-serif;
   margin-top: 0;
   color: inherit;
 }
@@ -470,6 +475,7 @@ section h3.section-subheading {
 }
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
+  font-family: 'Noto Sans KR', sans-serif;
   margin-bottom: 0;
 }
 @media (min-width: 768px) {
@@ -588,6 +594,12 @@ section#contact .form-control:focus {
   border-color: #fed136;
   box-shadow: none;
 }
+.contact-header {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -678,15 +690,26 @@ ul.social-buttons li a:active {
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content h4 {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 15px;
+}
+.portfolio-modal .modal-content h {
+  font-family: 'Noto Sans KR', sans-serif;
   margin-bottom: 15px;
   font-size: 3em;
 }
 .portfolio-modal .modal-content p {
+  font-family: 'Noto Sans KR', sans-serif;
   margin-bottom: 30px;
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans KR', "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
